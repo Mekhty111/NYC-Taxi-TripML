@@ -31,6 +31,29 @@ Taxi and ride-hailing services need reliable trip duration forecasts for route p
 - **Deployment Workflow:** Automate end-to-end prediction for new rides.
 - **Kaggle Submission:** Showcase results in a live data science competition.
 
+## File Descriptions
+
+- **train.csv** - The training set (contains 1,458,644 trip records)  
+- **test.csv** - The testing set (contains 625,134 trip records)  
+- **sample_submission.csv** - A sample submission file in the correct format  
+
+## Data Fields
+
+- **id** - A unique identifier for each trip  
+- **vendor_id** - A code indicating the provider associated with the trip record  
+- **pickup_datetime** - Date and time when the meter was engaged  
+- **dropoff_datetime** - Date and time when the meter was disengaged  
+- **passenger_count** - The number of passengers in the vehicle (driver entered value)  
+- **pickup_longitude** - The longitude where the meter was engaged  
+- **pickup_latitude** - The latitude where the meter was engaged  
+- **dropoff_longitude** - The longitude where the meter was disengaged  
+- **dropoff_latitude** - The latitude where the meter was disengaged  
+- **store_and_fwd_flag** - Indicates whether the trip record was held in vehicle memory before sending to the vendor because the vehicle did not have a connection to the server.  
+  - *Y* = store and forward  
+  - *N* = not a store and forward trip  
+- **trip_duration** - Duration of the trip in seconds (target variable)  
+
+
 ## Repository Structure
 ```
 ├── data/ # Raw and processed datasets
