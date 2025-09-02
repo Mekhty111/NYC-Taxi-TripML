@@ -77,8 +77,8 @@ Taxi and ride-hailing services need reliable trip duration forecasts for route p
 ## Getting Started
 
 Clone the repo:
-git clone https://github.com/yourusername/nyc-taxi-trip-duration.git
-cd nyc-taxi-trip-duration
+git clone https://github.com/Mekhty111/NYC-Taxi-TripML.git
+cd NYC-Taxi-TripML
 
 
 Install dependencies:
